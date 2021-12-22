@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>Copymate</title>
+</head>
+
+<body>
+
+    <section>
+        <div class='row_cop_Aside'>
+            <div class='dl_cop_Aside_col' id="menu_nav">
+
+                <div class='Left_cop_Aside_col'>
+                    <header>
+                        <!-- nav bar starts here -->
+                        <nav class="static">
+                            <ul class="nav-menu ">
+                                <!-- logo  -->
+                                <div class="brand_logo">
+                                    <img src="./Assets/Group 945.png" alt=""> <span>CopyMate</span>
+                                </div>
+                                <!-- logo  -->
+                                <hr class="hr">
+                                <li class="nav-item activa">
+                                    <a href="#">
+                                        <svg class="con_icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                        </svg>
+                                        <span> Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"> <svg class="con_icon" xmlns="http://www.w3.org/2000/svg"
+                                            class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                        </svg>
+                                        <span>Create Page</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <svg class="con_icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                                        </svg>
+                                        <span>Page List</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <svg class="con_icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z" />
+                                        </svg>
+                                        <span>Add Product</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <svg class="con_icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                        </svg>
+                                        <span>Product List</span>
+                                    </a>
+                                </li>
+                                <hr>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <svg class="con_icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                        <span>Settings</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <svg class="con_icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                                        </svg>
+                                        <span>Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </header>
+                    <!-- nav bar Ends here -->
+                </div>
+            </div>
+            <div class='column_cop_aside'>
+                <div class="container wrapper">
+                    <div class='Right_cop_Aside_col'>
+                        <!-- head nav starts here -->
+                        <div class='row_lg_con'>
+                            <div class='column_lg_con'>
+                                <div class='lg_con_left_col'>
+                                    <p>Dashboard</p>
+                                </div>
+                            </div>
+                            <div class='column_lg_con'>
+                                <div class='lg_con_Right_col'>
+                                    <div class="hamburger">
+                                        <span class="bar"></span>
+                                        <span class="bar"></span>
+                                        <span class="bar"></span>
+                                    </div>
+                                    <img src="./Assets/Ellipse 3.png" alt="">
+                                    <i onclick="mytab()" class="fas fa-ellipsis-v">
+                                    </i>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="profile">
+                            <p> profile</p>
+                        </div>
+                        <!-- head nav ends here -->
+                        <!-- next section starts here -->
+                        <div class='row_gr_sec'>
+                            <div class='column_gr_sec'>
+                                <div class='bl_gr_sec_col_left'>
+                                    <div class="grid_div">
+                                        <div class="st_gr">
+                                            <p>Stats</p>
+                                        </div>
+                                        <div class="st_gr">
+                                            <select name="card" id="card">
+                                                <option value="1">August</option>
+                                                <option value="2">June</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <hr class="hr_st">
+                                    <div class="grid_tamp">
+                                        <div class="progress">
+                                            <div class="progress-bar bg-Warning " role="progressbar" style="width: 25%"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info " role="progressbar" style="width: 45%"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success " role="progressbar" style="width: 60%"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div id="chart"></div>
+                                </div>
+                            </div>
+                            <div class='column_gr_sec'>
+                                <div class='bl_gr_sec_col_right'>
+                                    <div>
+                                        <p class="activity">Acitivity <span>Last 15 Days</span></p>
+                                        <!-- grid layout starts here -->
+                                        <div class="corner-radius-grid-row">
+                                            <div class="corner-radius-grid-col">
+                                                <div class="text-layer">
+                                                    <p class="mb-0">89</p>
+                                                    <p>AI<br>
+                                                        <span> Creator</span>
+                                                    </p>
+                                                </div>
+                                                <div class="white-layer">
+                                                    <img src="./Assets/ai (1) 1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="corner-radius-grid-col">
+                                                <div class="text-layer text-layer1">
+                                                    <p class="mb-0">89</p>
+                                                    <p>Template
+                                                        <br>
+                                                        <span> Creator</span>
+                                                    </p>
+                                                </div>
+                                                <div class="white-layer1">
+                                                    <img src="./Assets/template 1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="corner-radius-grid-col">
+                                                <div class="text-layer text-layer3">
+                                                    <p class="mb-0">89</p>
+                                                    <p>Designed <br>
+                                                        <span> Pages</span>
+                                                    </p>
+                                                </div>
+                                                <div class="white-layer2">
+                                                    <img src="./Assets/web-design 1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="corner-radius-grid-col">
+                                                <div class="text-layer text-layer2">
+                                                    <p class="mb-0">89</p>
+                                                    <p>Designed<br>
+                                                        <span>
+                                                            Banners</span>
+                                                    </p>
+                                                </div>
+                                                <div class="white-layer3">
+                                                    <img src="./Assets/landing-page 1.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- grid layout ends here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- next section ends here -->
+                        <!-- aside col starts here -->
+                        <div class='row_aside_nt'>
+                            <div class='db_nt_col'>
+                                <div class='Bln_left_col'>
+                                    <div class="tabl_btn">
+                                        <p class="decor"> Sales Table</p>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="first_value">
+                                                            <img src="./Assets/image 3.png" alt="">
+                                                            <p>Geeta <br> <span>AI based</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Category <br> <span>Optin</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Started On <br> <span>01 Jan 2020</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Last Edited On <br> <span>12 Jan 2020</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="fl">
+                                                        <span>68%</span>
+                                                        <span>Process</span>
+                                                        <div class="progress1">
+
+                                                            <div class="progress-bar value_pr bg-success "
+                                                                role="progressbar" style="width: 60%" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="td_chav">
+                                                            <span> <i class="fas fa-chevron-right"></i></span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 2nd -->
+                                                <tr>
+                                                    <td>
+                                                        <div class="first_value">
+                                                            <img src="./Assets/image 3.png" alt="">
+                                                            <p>Geeta <br> <span>AI based</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Category <br> <span>Optin</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Started On <br> <span>01 Jan 2020</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Last Edited On <br> <span>12 Jan 2020</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="fl">
+                                                        <span>100%</span>
+                                                        <span>Process</span>
+                                                        <div class="progress1">
+
+                                                            <div class="progress-bar value_pr bg-danger "
+                                                                role="progressbar" style="width: 100%"
+                                                                aria-valuenow="25" aria-valuemin="0"
+                                                                aria-valuemax="100"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="td_chav">
+                                                            <span> <i class="fas fa-chevron-right"></i></span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 3rd -->
+                                                <tr>
+                                                    <td>
+                                                        <div class="first_value">
+                                                            <img src="./Assets/image 3.png" alt="">
+                                                            <p>Geeta <br> <span>AI based</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Category <br> <span>Optin</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Started On <br> <span>01 Jan 2020</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Last Edited On <br> <span>12 Jan 2020</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="fl">
+                                                        <span>68%</span>
+                                                        <span>Process</span>
+                                                        <div class="progress1">
+
+                                                            <div class="progress-bar value_pr bg-success "
+                                                                role="progressbar" style="width: 60%" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="td_chav">
+                                                            <span> <i class="fas fa-chevron-right"></i></span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 4th -->
+                                                <tr>
+                                                    <td>
+                                                        <div class="first_value">
+                                                            <img src="./Assets/image 3.png" alt="">
+                                                            <p>Geeta <br> <span>AI based</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Category <br> <span>Optin</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Started On <br> <span>01 Jan 2020</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="sec_value">
+                                                            <p>Last Edited On <br> <span>12 Jan 2020</span></p>
+                                                        </div>
+                                                    </td>
+                                                    <td class="fl">
+                                                        <span>68%</span>
+                                                        <span>Process</span>
+                                                        <div class="progress1">
+
+                                                            <div class="progress-bar value_pr bg-success "
+                                                                role="progressbar" style="width: 60%" aria-valuenow="25"
+                                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="td_chav">
+                                                            <span> <i class="fas fa-chevron-right"></i></span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='column_aside_nt'>
+                                <div class='Bln_right_col'>
+                                    <div class="grid_doll">
+                                        <div class="gr_doll doll2">
+                                            <p class="pr_doll">Total Count</p>
+                                            <img src="./Assets/Jan-Business_report_1 [Converted] 1.png" alt="">
+                                        </div>
+                                        <div class="gr_doll">
+                                            <div class="inner_gr blue_inn1">
+                                                <div class="in_gr">
+                                                    <p>AI Creator</p>
+                                                </div>
+                                                <div class="in_gr inin_gr">
+                                                    <p>10</p>
+                                                </div>
+                                            </div>
+                                            <div class="inner_gr blue_inn">
+                                                <div class="in_gr ">
+                                                    <p>Template <br> Creator</p>
+                                                </div>
+                                                <div class="in_gr inin_gr">
+                                                    <p>9</p>
+                                                </div>
+                                            </div>
+                                            <div class="inner_gr blue_inn2">
+                                                <div class="in_gr ">
+                                                    <p>Designed <br> Pages</p>
+                                                </div>
+                                                <div class="in_gr inin_gr">
+                                                    <p>10</p>
+                                                </div>
+                                            </div>
+                                            <div class="inner_gr blue_inn3">
+                                                <div class="in_gr ">
+                                                    <p>Designed <br> Banner </p>
+                                                </div>
+                                                <div class="in_gr inin_gr">
+                                                    <p>34%</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="full_width">
+                            <p class="time">Timeline</p>
+                            <table class="table_tb">
+                                <tbody>
+                                    <tr>
+                                        <td class="pos_li">
+                                            <div class="pros_li blue_text">
+                                                <p>12 Oct 10:12 AM <br> <span>Generate Sales Page </span></p>
+                                            </div>
+                                            <img class="gr_pos" src="./Assets/Group 1138.png" alt="">
+                                            <div class="img_gr1">
+                                                <img src="./Assets/Group 1137.png" alt="">
+                                            </div>
+                                        </td>
+                                        <td class="pos_li">
+                                            <div class="pros_li1 darkblue">
+                                                <p>12 Oct 10:12 AM <br> <span>Generate Sales Page </span></p>
+                                            </div>
+                                            <img class="gr_pos" src="./Assets/Group 1083.png" alt="">
+                                            <div class="img_gr1">
+                                                <img src="./Assets/Untitled (5).png" alt="">
+                                            </div>
+                                        </td>
+                                        <td class="pos_li">
+                                            <div class="pros_li orange">
+                                                <p>12 Oct 10:12 AM <br> <span>Generate Sales Page </span></p>
+                                            </div>
+                                            <img class="gr_pos" src="./Assets/Group 1084.png" alt="">
+                                            <div class="img_gr1">
+                                                <img src="./Assets/Untitled (6).png" alt="">
+                                            </div>
+                                        </td>
+                                        <td class="pos_li">
+                                            <div class="pros_li1 blue_text">
+                                                <p>12 Oct 10:12 AM <br> <span>Generate Sales Page </span></p>
+                                            </div>
+                                            <img class="gr_pos" src="./Assets/Group 1085.png" alt="">
+                                            <div class="img_gr1">
+                                                <img src="./Assets/Group 1137.png" alt="">
+                                            </div>
+                                        </td>
+                                        <td class="pos_li">
+                                            <div class="pros_li pink">
+                                                <p>12 Oct 10:12 AM <br> <span>Generate Sales Page </span></p>
+                                            </div>
+                                            <img class="gr_pos" src="./Assets/Group 1086.png" alt="">
+                                            <div class="img_gr1">
+                                                <img src="./Assets/Untitled (4).png" alt="">
+                                            </div>
+                                        </td>
+                                        <td class="pos_li">
+                                            <div class="pros_li1 darkblue">
+                                                <p>12 Oct 10:12 AM <br> <span>Generate Sales Page </span></p>
+                                            </div>
+                                            <img class="gr_pos" src="./Assets/Group 1083.png" alt="">
+                                            <div class="img_gr1">
+                                                <img src="./Assets/Untitled (5).png" alt="">
+                                            </div>
+                                        </td>
+                                        <td class="pos_li">
+                                            <div class="pros_li orange">
+                                                <p>12 Oct 10:12 AM <br> <span>Generate Sales Page </span></p>
+                                            </div>
+                                            <img class="gr_pos" src="./Assets/Group 1084.png" alt="">
+                                            <div class="img_gr1">
+                                                <img src="./Assets/Untitled (6).png" alt="">
+                                            </div>
+                                        </td>
+                                        <td class="pos_li">
+                                            <div class="pros_li1 blue_text">
+                                                <p>12 Oct 10:12 AM <br> <span>Generate Sales Page </span></p>
+                                            </div>
+                                            <img class="gr_pos" src="./Assets/Group 1085.png" alt="">
+                                            <div class="img_gr1">
+                                                <img src="./Assets/Group 1137.png" alt="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class='row_three'>
+                            <div class='column_three'>
+                                <div class='gr_col_three_left'>
+                                    <p class="time">Latest Projects</p>
+                                    <table class="table_rt">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="two_div">
+                                                        <img class="gr_box_im" src="./Assets/image 25.png" alt="">
+                                                        <p> Cup & Green <br><span>
+                                                                Visually Stunning</span></p>
+                                                    </div>
+                                                </td>
+                                                <td class="i_con">
+                                                    <i class="fas fa-arrow-right"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="two_div">
+                                                        <img class="gr_box_im" src="./Assets/image 25.png" alt="">
+                                                        <p>Pink Patterns<br><span>
+                                                                Feminine All Around</span></p>
+                                                    </div>
+                                                </td>
+                                                <td class="i_con">
+                                                    <i class="fas fa-arrow-right"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="two_div">
+                                                        <img class="gr_box_im" src="./Assets/image 25.png" alt="">
+                                                        <p>Abstract Art<br><span>
+                                                                The Will To Capture Reader</span></p>
+                                                    </div>
+                                                </td>
+                                                <td class="i_con">
+                                                    <i class="fas fa-arrow-right"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="two_div">
+                                                        <img class="gr_box_im" src="./Assets/image 25.png" alt="">
+                                                        <p> Desserts Platters <br><span>
+                                                                Foods Trends & Inspiration</span></p>
+                                                    </div>
+                                                </td>
+                                                <td class="i_con">
+                                                    <i class="fas fa-arrow-right"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="two_div">
+                                                        <img class="gr_box_im" src="./Assets/image 25.png" alt="">
+                                                        <p> Cup & Green <br><span>
+                                                                Visually Stunning</span></p>
+                                                    </div>
+                                                </td>
+                                                <td class="i_con">
+                                                    <i class="fas fa-arrow-right"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="two_div">
+                                                        <img class="gr_box_im" src="./Assets/image 25.png" alt="">
+                                                        <p> Pink Patterns <br><span>
+                                                                Feminine All Around</span></p>
+                                                    </div>
+                                                </td>
+                                                <td class="i_con">
+                                                    <i class="fas fa-arrow-right"></i>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class='column_three'>
+                                <div class='bl_col_three_right'>
+                                    <p class="time">Credit Used</p>
+                                    <div id="SemiCircle">
+
+                                    </div>
+                                    <table class="tb_cat">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="table_cat">
+                                                        <img src="./Assets/image 32.png" alt="">
+                                                        <p>$2,034 <br> <span>Author Sales</span></p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="table_cat">
+                                                        <img src="./Assets/image 32.png" alt="">
+                                                        <p>$2,034 <br> <span>Author Sales</span></p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="table_cat">
+                                                        <img src="./Assets/image 32.png" alt="">
+                                                        <p>$2,034 <br> <span>Author Sales</span></p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="table_cat">
+                                                        <img src="./Assets/image 32.png" alt="">
+                                                        <p>$2,034 <br> <span>Author Sales</span></p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class='column_three'>
+                                <div class='or_col_three_right'>
+                                    <p class="time">Credit stats</p>
+                                    <div id="radialBar">
+
+                                    </div>
+                                    <div class="list">
+                                        <ul>
+                                            <li>Total Upsell Pages</li>
+                                            <li>Total Upsell Pages</li>
+                                            <li>Total Upsell Pages</li>
+                                            <li>Total Upsell Pages</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- aside col Ends here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.32.0/apexcharts.min.js"
+    integrity="sha512-JWuHiH5weF9hQAM/H5LaXRekU40IcLV8QgqGtvlR2t6vFNmDdCxkmFDajuHiuN0Tyh3n7HO/qdb3ARyUokKs0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+<script>
+    function mytab() {
+        var x = document.getElementById('profile');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        }
+        else {
+            x.style.display = 'none';
+        }
+    }
+</script>
+<!-- nav bar -->
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+        const navLink = document.querySelectorAll(".nav-link");
+
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        function closeMenu() {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }
+    }
+
+
+</script>
+<script>
+    $(function ($) {
+        let url = window.location.href;
+        $('li a').each(function () {
+            if (this.href === url) {
+                $(this).closest('li').addClass('activa');
+            }
+        });
+    });
+</script>
+
+<!-- nav bar -->
+<script src="./JS/line-chart.js"></script>
+<script src="./JS/radial-bar.js"></script>
+<script src="./JS/radial-char2.js"></script>
+</body>
+
+</html>
