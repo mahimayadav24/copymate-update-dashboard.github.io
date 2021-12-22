@@ -1,68 +1,60 @@
-
 var options = {
-  series: [75],
   chart: {
-    height: 350,
-    type: 'radialBar',
-    toolbar: {
-      show: true
-    }
+    height: 280,
+    type: "radialBar",
   },
+
+  series: [74],
   plotOptions: {
     radialBar: {
-      startAngle: -100,
-      endAngle: 100,
+      startAngle: -90,
+      endAngle: 90,
+      hollow: {
+        margin: 0,
+        size: "70%",
+
+      },
       track: {
         background: "#C9F7F5",
-        strokeWidth: '96%',
-        margin: 5, // margin is in pixels
         dropShadow: {
           enabled: true,
           top: 2,
           left: 0,
-          color: '#999',
-          opacity: 1,
-          blur: 2
+          blur: 4,
+          opacity: 0.15
         }
       },
-
       dataLabels: {
-        show: true,
         name: {
+          fontWeight: 500,
           offsetY: -10,
-          show: true,
           color: '#2F95FF',
-          fontWeight: 400,
-          fontSize: '14px'
+          fontSize: "13px"
         },
         value: {
-          formatter: function (val) {
-            return parseInt(val);
-          },
-          color: '#111',
+          color: '#474746',
           fontSize: '26px',
           fontWeight: 600,
-          show: true,
+          show: true
         }
       }
     }
   },
   fill: {
-    type: 'gradient',
+    type: "gradient",
     gradient: {
-      shade: 'light',
-      shadeIntensity: 0.4,
-      inverseColors: false,
-      opacityFrom: 1,
-      opacityTo: 1,
-      stops: [0, 50, 53, 91]
+      shade: "dark",
+      type: "vertical",
+      gradientToColors: ["#87D4F9"],
+      stops: [0, 100]
     }
   },
   stroke: {
-    lineCap: 'round'
+    lineCap: "round"
   },
-  labels: ['Credit Used'],
+  labels: ["Credit Used"]
 };
 
 var chart = new ApexCharts(document.querySelector("#SemiCircle"), options);
+
 chart.render();
